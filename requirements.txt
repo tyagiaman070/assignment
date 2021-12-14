@@ -1,0 +1,16 @@
+Backend: {
+  // * for All
+  signupComponent: "D" -> signupUser: "D";
+  loginComponent: "D" -> loginUser: "D";
+  forgotPasswordComponent: "D" -> forgotPassword: "D";
+  // * LoggedIn
+  DashboardComponent: "D" -> getUserProfile: "D";
+  updateProfileComponent: "D" -> updateMyProfile: "D";
+  deleteButton: "D" -> deleteMyAccount: "D";
+  SearchUserComponent: "D" -> getAUserByEmail: "D";
+  logoutButton: "D" -> logout: "D";
+  // * --admin
+  showAllUsersComponents: "D" -> getAllUsers: "D";
+  deleteButtonForAdmin: "D" -> deleteAUser: "D";
+}
+

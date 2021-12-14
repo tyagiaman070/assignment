@@ -12,3 +12,6 @@ It contains both frontend and backend
 ### /frontend directory
 ### step 1:- npm install  // to install all dependencies
 ### step 2:- npm start  // to start the frontend development server
+
+### to check admin functionality edit in DB a user to admin then login 
+
